@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Senthan &amp; Co — Law Firm Template Collection</title>
+<meta name="description" content="Four distinct law firm website templates: Corporate, Personal Injury, Family Law, and Criminal Defense.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12213A; --paper:#EDEFEA; --brass:#A9812E; --slate:#6B7280; --border:rgba(18,33,58,0.12);
+    --font-display:'Libre Caslon Display', serif; --font-body:'Public Sans', sans-serif; --font-mono:'IBM Plex Mono', monospace;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-body); line-height:1.6; }
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 24px; }
+  header{ padding:64px 0 40px; border-bottom:1px solid var(--border); }
+  .eyebrow{ font-family:var(--font-mono); font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--brass); margin-bottom:14px; }
+  h1{ font-family:var(--font-display); font-weight:400; font-size:clamp(1.9rem,4vw,2.6rem); margin:0 0 16px; letter-spacing:-0.01em; }
+  header p{ color:var(--slate); max-width:60ch; font-size:1.05rem; margin:0; }
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:48px 0 64px; }
+  .card{ border:1px solid var(--border); border-radius:8px; overflow:hidden; background:#fff; transition:transform .2s ease, box-shadow .2s ease; }
+  .card:hover{ transform:translateY(-4px); box-shadow:0 20px 40px -20px rgba(18,33,58,0.25); }
+  .card a{ text-decoration:none; color:inherit; display:block; }
+  .card img{ width:100%; display:block; aspect-ratio:16/10; object-fit:cover; border-bottom:1px solid var(--border); }
+  .card-body{ padding:22px 24px; }
+  .card-body .niche{ font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.05em; text-transform:uppercase; color:var(--brass); margin-bottom:8px; }
+  .card-body h2{ font-family:var(--font-display); font-weight:400; font-size:1.3rem; margin:0 0 8px; }
+  .card-body p{ color:var(--slate); font-size:0.92rem; margin:0 0 14px; }
+  .card-body .meta{ display:flex; flex-wrap:wrap; gap:8px; font-family:var(--font-mono); font-size:0.68rem; color:var(--slate); }
+  .card-body .meta span{ border:1px solid var(--border); border-radius:12px; padding:4px 10px; }
+  footer{ border-top:1px solid var(--border); padding:32px 0 48px; font-family:var(--font-mono); font-size:0.78rem; color:var(--slate); display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  footer a{ color:var(--slate); border-bottom:1px dotted var(--slate); text-decoration:none; }
+  @media (max-width:720px){ .grid{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Senthan &amp; Co — Template Collection</div>
+    <h1>Four law firms. Four distinct identities.</h1>
+    <p>A set of single-file, dependency-free HTML templates for law firm websites — each built around a different practice area, with its own palette, typography, and signature interaction. All four share the same technical foundation: dark/light theming, 7-language i18n with Arabic RTL support, base64-embedded WebP images, and scroll-reveal animation.</p>
+  </header>
+
+  <div class="grid">
+    <div class="card">
+      <a href="whitfield-cole/index.html">
+        <img src="assets/whitfield-cole.jpg" alt="Whitfield & Cole preview">
+        <div class="card-body">
+          <div class="niche">Corporate &amp; Business Law</div>
+          <h2>Whitfield &amp; Cole</h2>
+          <p>Navy and brass, Libre Caslon serif, and an interactive "defined term" glossary motif drawn from contract language.</p>
+          <div class="meta"><span>Light default</span><span>5 images</span><span>Clause-numbered sections</span></div>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="redress-law/index.html">
+        <img src="assets/redress-law.jpg" alt="Redress Law preview">
+        <div class="card-body">
+          <div class="niche">Personal Injury</div>
+          <h2>Redress Law</h2>
+          <p>Bold condensed type, deep blue and crimson, and an animated Settlement Meter comparing insurer offers to real recoveries.</p>
+          <div class="meta"><span>Light default</span><span>4 images</span><span>Animated bar comparisons</span></div>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="kinfolk-family-law/index.html">
+        <img src="assets/kinfolk-family-law.jpg" alt="Kinfolk Family Law preview">
+        <div class="card-body">
+          <div class="niche">Family &amp; Divorce Law</div>
+          <h2>Kinfolk Family Law</h2>
+          <p>Sage and muted rose, a softer Fraunces serif, and a "Path Forward" stepper guiding clients through the process.</p>
+          <div class="meta"><span>Light default</span><span>4 images</span><span>4-step process guide</span></div>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="voss-criminal-defense/index.html">
+        <img src="assets/voss-criminal-defense.jpg" alt="Voss Criminal Defense preview">
+        <div class="card-body">
+          <div class="niche">Criminal Defense</div>
+          <h2>Voss Criminal Defense</h2>
+          <p>Near-black and crimson, condensed Oswald display, and a flip-card "Know Your Rights" set — dark by default.</p>
+          <div class="meta"><span>Dark default</span><span>4 images</span><span>Interactive flip cards</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div>Template collection by Senthan &amp; Co</div>
+    <div><a href="mailto:jonathanrivers0414@gmail.com">jonathanrivers0414@gmail.com</a> · <a href="https://wa.me/256754069314">+256 754069314</a></div>
+  </footer>
+</div>
+</body>
+</html>
