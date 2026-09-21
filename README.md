@@ -67,4 +67,4 @@ The photography bundled in these templates was hand-vetted to exclude anything d
 
 ## Credits
 
-Built by **Senthan & Co** — [jonathanrivers0414@gmail.com](mailto:jonathanrivers0414@gmail.com) · +256 754069314
+Built by **Senthan & Co** — [hello@senthan-co.example](mailto:hello@senthan-co.example) · +256 700 000 000
