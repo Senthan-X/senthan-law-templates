@@ -8,17 +8,17 @@ Four single-file HTML templates for law firm websites, each built around a diffe
 
 | Template | Practice Area | Theme Default | Signature Feature |
 |---|---|---|---|
-| [Whitfield & Cole](whitfield-cole/) | Corporate & Business Law | Light | Interactive "defined term" glossary in the hero |
-| [Redress Law](redress-law/) | Personal Injury | Light | Animated Settlement Meter (offer vs. recovery) |
-| [Kinfolk Family Law](kinfolk-family-law/) | Family & Divorce Law | Light | 4-step "Path Forward" process stepper |
-| [Voss Criminal Defense](voss-criminal-defense/) | Criminal Defense | Dark | Flip-card "Know Your Rights" set |
+| [Whitfield & Cole](whitfield-cole-index.html) | Corporate & Business Law | Light | Interactive "defined term" glossary in the hero |
+| [Redress Law](redress-law-index.html) | Personal Injury | Light | Animated Settlement Meter (offer vs. recovery) |
+| [Kinfolk Family Law](kinfolk-family-law-index.html) | Family & Divorce Law | Light | 4-step "Path Forward" process stepper |
+| [Voss Criminal Defense](voss-criminal-defense-index.html) | Criminal Defense | Dark | Flip-card "Know Your Rights" set |
 
 ## Shared architecture
 
-Every template in this collection is a **single, dependency-free HTML file** — no build step, no external image folders, no CDN dependency beyond Google Fonts.
+Every template in this collection is a **single, dependency-free HTML file** — no build step, no external image folders, no CDN dependency.
 
 - **Theming** — CSS custom properties drive a full dark/light mode, toggled via a header button and persisted to `localStorage`. Each firm has its own light and dark palette.
-- **Internationalization** — 7 languages built in (English, Spanish, French, German, Portuguese, Arabic, Chinese), including full right-to-left layout support for Arabic. Language selection persists across visits.
+- **Internationalization** — 8 languages built in (English, Spanish, French, German, Portuguese, Arabic, Chinese, Swahili), including full right-to-left layout support for Arabic. Language selection persists across visits.
 - **Images** — All photography is resized, re-encoded to WebP, and embedded directly as base64 data URIs, so the template works from a single file with no missing-asset risk. Typical total page weight is 200–320KB.
 - **Motion** — Scroll-reveal animation via `IntersectionObserver`, with a `prefers-reduced-motion` fallback that disables animation entirely.
 - **Resilience** — A defensive `localStorage` wrapper prevents crashes in private-browsing modes or environments where storage is blocked.
@@ -63,7 +63,7 @@ Then replace the base64 string inside the matching `<img src="data:image/webp;ba
 
 ## Licensing note
 
-The photography bundled in these templates was hand-vetted to exclude anything depicting identifiable real people, third-party branding, or copyrighted artwork — it's limited to generic object photography (scales of justice, gavels, law books, contracts). If reselling on a marketplace, confirm the license terms cover redistribution before publishing; when in doubt, swap in your own licensed photography using the steps above.
+The public demos use photographs under the [Pexels License](https://www.pexels.com/license/). The [imagery ledger](LAW-IMAGERY.json) records each placement, photographer, source page, and embedded image digest. Senthan Commerce buyer downloads include editable photo slots and setup guides.
 
 ## Credits
 
