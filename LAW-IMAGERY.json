@@ -1,0 +1,114 @@
+{
+  "reviewed": "2026-11-20",
+  "previousImages": "The source repository contained embedded photos without individual source or license records. All 17 template photo placements and the collection cover were replaced.",
+  "sources": {
+    "5668882": {
+      "creator": "Sora Shimazaki",
+      "source": "https://www.pexels.com/photo/justice-scales-and-gavel-on-wooden-surface-5668882/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Justice scales, law books and a wooden gavel",
+      "sha256": "7e0c685dab17c858deb978a0faca369b87f24f895c579562e54fac839b3e0d9d"
+    },
+    "5669619": {
+      "creator": "Sora Shimazaki",
+      "source": "https://www.pexels.com/photo/judges-desk-with-gavel-and-scales-5669619/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Brass scales and a gavel on a desk",
+      "sha256": "9b205ec504351e80cf2b1e7edf0e588efe18aa6c5723120b18179b4aa82fb940"
+    },
+    "8439700": {
+      "creator": "Kampus Production",
+      "source": "https://www.pexels.com/photo/woman-signing-a-contract-in-an-office-in-the-presence-of-lawyers-8439700/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Hands signing papers across a meeting table",
+      "sha256": "a6e1e640606575f997daa10299b2694a352e2b2b1bc12310f220fa9779ac9b92"
+    },
+    "8730374": {
+      "creator": "Mikhail Nilov",
+      "source": "https://www.pexels.com/photo/a-person-writing-on-the-document-8730374/",
+      "license": "https://www.pexels.com/license/",
+      "description": "A pen poised over a document",
+      "sha256": "6e1875dde7ca5711317dfe87eb40df5ee6be360ac57e6d44c4c87f945ecd5c10"
+    },
+    "7841506": {
+      "creator": "RDNE Stock project",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-person-writing-on-a-contract-7841506/",
+      "license": "https://www.pexels.com/license/",
+      "description": "A contract being signed at a desk",
+      "sha256": "a612b2f688303e6807654ee56c512e39c5a32beb3a7c9cfac8c6ca1d94574d53"
+    },
+    "8112201": {
+      "creator": "Pavel Danilyuk",
+      "source": "https://www.pexels.com/photo/themis-sculpture-with-libra-8112201/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Bronze Lady Justice holding scales and a sword",
+      "sha256": "0c30cb8dd20e4b82bc450a337e74e8ea12f88d948fe1fcf86a9750e4411bc4e5"
+    },
+    "8112203": {
+      "creator": "Pavel Danilyuk",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-statuette-of-lady-justice-8112203/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Detail of a bronze Lady Justice statuette",
+      "sha256": "7e910888a5283886e256cf89867cbc508a4fe0b28ca9cbe9939e9e7fd52d660c"
+    },
+    "10323192": {
+      "creator": "versolaluce",
+      "source": "https://www.pexels.com/photo/photo-of-books-in-a-library-10323192/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Rows of books on wooden library shelves",
+      "sha256": "618b5409a92824f13ca1fa5d8f01092bae9fd8719bf364dbec16b548fcfe4c38"
+    },
+    "36028900": {
+      "creator": "Mehmed Lukavackic",
+      "source": "https://www.pexels.com/photo/bright-interior-with-chairs-and-table-by-a-window-36028900/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Two chairs beside a sunlit window",
+      "sha256": "f2104652e13d07efad9dca774d175f7ed0a2dcded89b12dcece237df128c0dea"
+    },
+    "17739892": {
+      "creator": "Aheed Baithul Nafia",
+      "source": "https://www.pexels.com/photo/conference-table-and-chairs-in-an-empty-office-17739892/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Conference table and chairs in an empty office",
+      "sha256": "d4ba95302a5830b7b7483c47b544b654894d51d38926f09f811f18d1548ef0fd"
+    },
+    "6899393": {
+      "creator": "Max Vakhtbovych",
+      "source": "https://www.pexels.com/photo/office-interior-with-table-and-chairs-near-window-6899393/",
+      "license": "https://www.pexels.com/license/",
+      "description": "Wooden desks beside tall office windows",
+      "sha256": "d32bad77a9407dbc97a55754f70e79440657f990e194a5f46a02d18760582085"
+    }
+  },
+  "placements": {
+    "index.html": {
+      "cover": 5668882,
+      "cards": "Desktop browser screenshots of the four revised demos."
+    },
+    "whitfield-cole-index.html": {
+      "hero": 7841506,
+      "about": 17739892,
+      "practice": 5668882,
+      "library": 10323192,
+      "contact": 8439700
+    },
+    "redress-law-index.html": {
+      "hero": 5669619,
+      "about": 8730374,
+      "practice": 8112203,
+      "contact": 7841506
+    },
+    "kinfolk-family-law-index.html": {
+      "hero": 36028900,
+      "about": 6899393,
+      "practice": 8439700,
+      "contact": 8730374
+    },
+    "voss-criminal-defense-index.html": {
+      "hero": 8112201,
+      "about": 5668882,
+      "practice": 10323192,
+      "contact": 17739892
+    }
+  }
+}
